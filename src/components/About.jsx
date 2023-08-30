@@ -1,8 +1,10 @@
 import React from 'react'
+import Jordan from '../assets/jrdn.png'
 
 const About = () => {
     return (
-        <div className='my-20 px-12'>
+        <div className='my-20'>
+            <img className='rounded-xl mb-10 max-w-xs' src={Jordan} />
             <p className='text-white text-3xl sm:text-5xl font-black max-w-[700px] mb-4'>
                 A Full Stack Product Designer on a mission to change the world.
             </p>
