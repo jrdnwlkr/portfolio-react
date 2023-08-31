@@ -5,7 +5,7 @@ const Header = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-slate-950'>
+        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-gray-900'>
             <div>
                 <p className='text-2xl font-black text-[#7D0FD8]'>JRDNWLKR</p>
             </div>
