@@ -5,6 +5,7 @@ import {FaBars, FaTimes} from 'react-icons/fa'
 const Header = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
+    
     return (
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-gray-900'>
             <div>
@@ -12,10 +13,9 @@ const Header = () => {
             </div>
             {/* Navigation */}
                 <ul className='hidden md:flex'>
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
+                    <li className='text-sm font-bold tracking-widest bg-lime-500 py-2 rounded-md text-lime-950 mr-2'>ABOUT</li>
+                    <li className='text-sm font-bold tracking-widesfont-bold tracking-widest bg-slate-800 py-2 rounded-md text-gray-500 hover:text-gray-950 mr-2 hover:bg-slate-600'>WORK</li>
+                    <li className='text-sm font-bold tracking-widest bg-slate-800 py-2 rounded-md text-gray-500 hover:bg-slate-600 hover:text-gray-950'>CONTACT</li>
                 </ul>
             {/* Hamburger Menu */}
             <div onClick={handleClick} className='md:hidden z-10'>

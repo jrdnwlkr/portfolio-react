@@ -7,14 +7,6 @@
   pointer-events: none;
 }
 
-svg {
-  color: white;
-}
-
-svg:hover {
-  fill: black;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -43,4 +35,12 @@ svg:hover {
   to {
     transform: rotate(360deg);
   }
+}
+
+a {
+  color: rgb(132 204 22 / var(--tw-text-opacity));;
+}
+
+a:hover {
+  text-decoration: underline;
 }
