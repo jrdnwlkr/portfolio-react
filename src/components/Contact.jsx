@@ -7,7 +7,7 @@ import {FaGithub, FaLinkedin, FaDribbble} from 'react-icons/fa'
 const Contact = () => {
 
     return (
-        <div className='container items-center h-screen mx-auto grid md:grid-cols-2 sm:grid-cols-1 gap-4'>
+        <div className='container h-screen items-center mx-auto grid md:grid-cols-2 sm:grid-cols-1 gap-4'>
 
             <div className='mr-12'>
                 <p className='text-gray-500 text-lg sm:text-2xl font-lighter mb-4 tracking-wide'>
