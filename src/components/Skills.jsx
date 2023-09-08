@@ -1,13 +1,12 @@
 import React from 'react'
-import Html from '../assets/Html-Logo.svg'
-import Css from '../assets/Css-Logo.svg'
-import Javascript from '../assets/Javascript-Logo.svg'
-import Node from '../assets/Node-Logo.svg'
-import React2 from '../assets/React-Logo.svg'
-import Mongo from '../assets/Mongo-Logo.svg'
-import Git from '../assets/Git-Logo.svg'
-import Express2 from '../assets/Express-Logo.svg'
-import Figma from '../assets/Figma-Logo.svg'
+import Html from '../assets/Html-Logo.png'
+import Css from '../assets/Css-Logo.png'
+import Javascript from '../assets/Javascript-Logo.png'
+import Node from '../assets/Node-Logo.png'
+import React2 from '../assets/React-Logo.png'
+import Mongo from '../assets/Mongo-Logo.png'
+import Git from '../assets/Git-Logo.png'
+import Express2 from '../assets/Express-Logo.png'
 
 const Skills = () => {
     return (

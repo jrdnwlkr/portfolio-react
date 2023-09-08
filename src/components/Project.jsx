@@ -8,15 +8,15 @@ import NextProject from '../assets/next-project.png'
 
 const Project = () => {
     return (
-        <div className='text-center w-full'>
-            <p className='text-gray-500 text-lg sm:text-2xl font-lighter mb-4 tracking-widest'>
-                Work I have done
+        <div className='container py-6 items-center h-screen mx-auto text-center'>
+            <p className='text-gray-500 text-lg sm:text-2xl font-lighter tracking-widest'>
+                We can work from home
             </p>
-            <p className='text-white text-3xl sm:text-6xl font-black mb-16'>
-                    Proof is in the pudding
+            <p className='text-white text-3xl sm:text-6xl font-black mb-24'>
+                    Proof is in the projects
                 </p>
-            <div className='h-screen'>
-                <div className='grid gap-y-2 sm:grid-cols-2 md:grid-cols-3 gap-4 my-1'>
+            <div>
+                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 my-4'>
                     <div style={{ backgroundImage: `url(${RecipeDB})` }} className='rounded-md shadow-lg container group flex justify-center items-center mx-auto content-div'>
 
                         {/* Hover */}
